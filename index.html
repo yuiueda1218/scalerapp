@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>時間測定</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>時間測定</h1>
+    <div class="controls">
+        <input type="file" id="fileInput" accept="image/*">
+        <button id="pasteButton">スクリーンショットを貼り付け</button>
+        <button id="calibrationButton">1秒間キャリブレーション</button>
+    </div>
+    <div class="container">
+        <img id="image" src="" alt="測定画像">
+        <canvas id="canvas"></canvas>
+    </div>
+    <div id="distanceDisplay"></div>
+    <script src="script.js"></script>
+</body>
+</html>

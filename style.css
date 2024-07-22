@@ -1,0 +1,32 @@
+/* style.css */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#distanceDisplay {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
